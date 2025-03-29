@@ -1,0 +1,21 @@
+body{
+background-color: lightblue;
+front-family: Arial, sans-serif;
+
+}
+
+h1{
+color: darkblue;
+
+}
+
+p{
+color: darkgreen;
+
+}
+
+div{
+
+background-color: darkmagenta;
+color: white;
+}

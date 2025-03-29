@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>My first webpage</title>
+<link rel="stylesheet"href="name.css">
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+      <div id="reg-form"><form>
+
+  
+
+<label for="first name">First name:</label>
+<input type="text"name="first-name" placeholder="Scholastica"required>
+
+<label for="last name">Last name:</label>
+<input type="text"name="last-name" placeholder="Anyanwu"required>
+
+<div>
+<label for="<gender-male">Male</label>
+<input type="radio"name="genderchoice"value="choice-1">
+
+<label for="<gender-female">Female</label>
+<input type="radio"name="genderchoice"value="choice-2">
+
+<label for="<gender-others">Others</label>
+<input type="radio"name="genderchoice"value="choice-3">
+
+</div>
+
+<div>
+    <label for="email">Email</label>
+    <input type="email"name="email"placeholder="claireemanuel08@gmail.com">
+
+    <label for="password">Password</label>
+    <input type="password"name="password">
+    
+<div>
+    <label for="month">Birthday</label>
+    <select name="Month">
+        <option value="Jan">January</option>
+        <option value="feb">Febuary</option>
+        <option value="mar">March</option>
+        <option value="api">Apirl</option>
+        <option value="Jan">May</option>
+        <option value="Jun">June</option>
+        <option value="Jul">July</option>
+        <option value="aug">August</option>
+        <option value="sep">September</option>
+        <option value="oct">October</option>
+        <option value="nov">November</option>
+        <option value="dec">December</option>
+        /select>
+    
+<label for="agree">I agree to all the condition<label>
+<input type="checkbox" name="agree">
+<button type="submit">submit</button>
+
+</div>
+
+</div>
+
+<form>
+    </div>
+
+</body>
+</html>

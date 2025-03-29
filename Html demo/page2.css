@@ -1,0 +1,25 @@
+body{
+background-color: orangered;
+font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+color: thistle;
+
+}
+
+p{
+color: wheat;
+
+}
+
+#skills ol li {
+color:powderblue;
+
+}
+
+#skills ul li {
+    color:powderblue;
+
+
+}

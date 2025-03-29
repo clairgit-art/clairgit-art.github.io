@@ -1,0 +1,48 @@
+body{
+ background-image: url(8002552.jpg);
+ 
+}
+header{
+    color: white;
+text-transform: uppercase;
+}
+ h1{
+   color: black;
+   
+}
+p{
+  color: blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5)
+  padding: 13px 13px 13px 20px;
+  border-radius: 5px;
+}
+
+big{
+    color: bisque;
+}
+small{
+    color: bisque;
+}
+ul{
+    color: black;
+
+}
+footer{
+    color: white;
+    text-transform: uppercase;
+}
+div{
+background-color: coral;
+
+}
+a:hover{
+ background-color: black;
+color: white;
+}
+p{
+    background-color: #f7f7f7;
+    color: black;
+    
+    
+}

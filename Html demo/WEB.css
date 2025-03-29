@@ -1,0 +1,55 @@
+html{
+background-image: url('https://cdn-images.dzcdn.net/images/artist/a8d94ce3122aad46da2af8ccbb6e6e9f/1900x1900-000000-80-0-0.jpg');
+background-size:cover;
+background-position: left;
+background-attachment: scroll;
+ background-repeat: no-repeat; 
+
+}
+h1{
+border:  whitesmoke;
+color: thistle;
+
+
+}
+.login{
+    border: wheat;
+    background-color: black;
+    color: thistle;
+     
+}
+
+div{
+
+width: 100px;
+height: 100px;
+background-color: burlywood;
+box-shadow: 3px 3px 5px;
+border-radius: 10px;
+text-transform: uppercase;
+}
+
+img{
+position: absolute;
+animation: moveRight 5s infinite alternate ease-in-out;
+
+}
+@keyframes moveRight {
+   from{
+       left: 0;
+
+    }
+    to{
+       left: 80%; 
+    }
+
+    }
+
+
+}
+
+
+
+
+
+
