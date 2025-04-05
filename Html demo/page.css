@@ -1,6 +1,7 @@
 body{
 background-color: lightblue;
-front-family: Arial, sans-serif;
+font-family: Arial, sans-serif;
+font-size: 20px;
 
 }
 
@@ -8,14 +9,10 @@ h1{
 color: darkblue;
 
 }
-
-p{
-color: darkgreen;
-
+input{
+    opacity: 55.00%;
 }
-
-div{
-
-background-color: darkmagenta;
-color: white;
+input:hover{
+    background-color: black;
+    color: white;
 }
