@@ -3,37 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>netlity</title>
-    <link rel="stylesheet" href="style .css">
+    <title>Cafe Menu</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-<img src="asset 1.svg" alt="netlity" class="top-left-image"></img>
-<div class="container">
-   <h2>Sign up to deploy your project</h2>
-
- <button>🔗 Sign up with GitHub</button>
- <button>🦊 Sign up with GitLab</button>
- <button>📦 Sign up with Bitbucket</button>
-  <br>
-  <br>
-<div>
-<a class="small link" href="#">Sign up with email</a>
-</div>
-
-<div>
-    <p>Already have an account?</p><a class="small link" href="#">Log in</a>
-</div>
-
-<div class="footer">
-<br>
-<br>
-<br>
-<br>
-<br>
-<p>By signing up with Netlify,you agree to our<a href="#">terms of service.</a> </p>
-    
-</div>
-
-</div>
+<header>
+    <nav class="navbar">
+        <a href="home" class="logo">
+            
+<h1 class="logo-text">☕CLAIRE'S CAFE</h1>
+</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <button class="menu-toggle">HOME</button>
+        <button class="menu-toggle">ABOUT</button>
+        <button class="menu-toggle" id="menu-button">MENU</button>
+        <button class="menu-toggle">GALLERY</button>
+        <button class="menu-toggle">BLOG</button>
+        <button class="menu-toggle">ORDER</button>
+        <button class="menu-toggle">CONTACT</button>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Claire's Cafe</h1>
+        <p>Your favorite place for coffee and pastries</p>
+        <a href="order" class="btn">Order Now</a>
+    </div>
+    <div class="hero-image">
+        <img src="cafe.jpg" alt="Cafe Image">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+        <h2>Experience the Best Coffee in Town</h2>
+        <p>Join us for a cup of coffee and a slice of cake!</p>
+        <a href="order" class="btn">Order Now</a>
+    </div>
+</header>
+<main>
+    <section class="menu" id="menu-section" style="display: none;">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <img src="caramel.webp" alt="Caramel Macchiato">
+            <h3>Caramel Macchiato</h3>
+            <p>A delicious blend of espresso, steamed milk, and caramel syrup, topped with a drizzle of caramel.</p>
+            <p>Price: $4.50</p>
+        </div>
+        <div class="menu-item">
+            <img src="vanilla.jpg" alt="Vanilla Latte">
+            <h3>Vanilla Latte</h3>
+            <p>A smooth and creamy latte flavored with vanilla syrup, perfect for a sweet treat.</p>
+            <p>Price: $4.00</p>
+        </div>
+        <div class="menu-item">
+            <img src="mocha.jpeg" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>A rich and chocolatey coffee drink made with espresso, steamed milk, and chocolate syrup.</p>
+        </div>
+        <div class="menu-item">
+            <img src="cap.webp" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>A classic coffee drink made with equal parts espresso, steamed milk, and frothed milk.</p>
+        </div>
+    </section>
+    <!-- Add this div for displaying messages -->
+    <div id="display-area" style="display: none; margin: 20px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+        <!-- Message will appear here -->
+    </div>
+</main>
+<footer>
+    <p>&copy; 2025 Claire's Cafe. All rights reserved.</p>
+    <div class="social-media">
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+    </div>
+<script src="script.js"></script>
 </body>
 </html>
