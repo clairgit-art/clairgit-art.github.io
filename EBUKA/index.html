@@ -31,7 +31,7 @@
             <h2>Our Products</h2>
             <div class="product-grid">
                 <div class="product-card">
-                    <img src="big m.jpg" alt="Product 1">
+                    <img src="big m.jpg" alt="">
                     <h3>Xerox AltaLink or Xerox WorkCentre</h3>
                     <p class="description">Print Speed: Up to 55 pages per minute for both color and black-and-white documents.
                         Print Resolution: 1200 x 2400 dpi.
@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="printer.jpg" alt="Product 2">
+                    <img src="printer.jpg" alt="">
                     <h3>HP LaserJet P3005 series printer</h3>
                     <p class="description">Print Speed: Up to 35 pages per minute (ppm) for letter-size paper.
                         Print Resolution: Up to 1200 x 1200 dpi.
@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="photo.jpg" alt="Product 3">
+                    <img src="photo.jpg" alt="">
                     <h3>Xerox WorkCentre 7855 A3 </h3>
                     <p class="description">Print Speed: Up to 55 pages per minute for black and white and 50 pages per minute for color. 
                         Print Resolution: Maximum color print resolution of 1200 x 1200 dpi. 
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="prin.jpg" alt="Product 2">
+                    <img src="prin.jpg" alt="">
                     <h3>Xerox Phaser 7800 color printer</h3>
                     <p class="description">Print Speed: Up to 45 ppm for both color and black-and-white documents.
                         Processor: 1.33 GHz.
@@ -90,35 +90,32 @@
         </section>
 
         <section id="about" class="about">
-            <h2>About Us</h2>
-            <p>At Lyndsprint Enterprises, we are committed to providing top-quality products that meet the needs of our customers. 
-               With years of experience in the industry, we pride ourselves on offering reliable and durable solutions at competitive prices. 
-               Our mission is to ensure customer satisfaction through exceptional service and a wide range of products tailored to your requirements. 
-               Shop with us today and experience the difference!</p>
-        </section>
-
+            <h2 id="demo">About Us</h2>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = 'We are a leading provider of high-quality products, specializing in printers and office equipment. Our team is dedicated to ensuring that you find the perfect solution for your needs.'">
+        Click me</button>
+        
+            </section>
         <section id="contact" class="contact">
-            <h2>Contact Us</h2>
-            For inquiries, please reach out to us via the following channels:
-        <section class="contact-info">
-        <a href="https://wa.me/2348068820830">
-            <p><img src="what.jpeg" alt="WhatsApp Logo" style="width: 20px; vertical-align: middle;"> WhatsApp: +234 806 882 0830</p>
-        </a>
-        <a href="https://www.tiktok.com/@lyndsprint_enterprises">
-            <p><img src="tiktok.png" alt="TikTok Logo" style="width: 20px; vertical-align: middle;"> TikTok: @lyndsprint_enterprises</p>
-        </a>
-        <a href="mailto:Ebukaakune@gmail.com">
-            <p><img src="mail.jpeg" alt="Email Logo" style="width: 20px; vertical-align: middle;"> Email: Ebukaakune@gmail.com</p>
-        </a>
-        <a href="tel:+2348068820830">
-            <p><img src="contact.jpeg" alt="Phone Logo" style="width: 20px; vertical-align: middle;"> Phone: (+234) 08068820830</p>
-        </a>
+            <h2 id="demo2">Contact Us</h2>
+                <div class="contact-info">
+            </div>
+        <button type="button"
+        onclick="document.getElementById('demo2').innerHTML = '<p>Feel free to reach out to us through any of the following channels:</p>' +
+        '<p>Email: <a href=&quot;mailto:Ebukaakune@gmail.com&quot;>Ebukaakune@gmail.com</a></p>' +
+        '<p>Phone: <a href=&quot;tel:+2348068820830&quot;>(+234) 08068820830</a></p>' +
+        '<p>WhatsApp: <a href=&quot;https://wa.me/2348068820830&quot;>(+234) 08068820830</a></p>' +
+        '<p>Follow us on social media:</p>' +
+        '<ul class=&quot;social-media&quot;>' +
+        '<li><a href=&quot;https://www.tiktok.com/@ lyndsprint enterprises&quot; target=&quot;@ lyndsprint enterprises_&quot;><img src=&quot;Tiktok&quot; alt=&quot;@lyndsprint enterprises&quot;></a></li>' +
+        '</ul>';">
+        Click me</button>
         </section>
     </main>
     <button class="mobile-menu-button">Menu</button>
 
     <footer>
-        <p>&copy; 2025 My Shop. All rights reserved.</p>
+        <h5>&copy; 2025 My Shop. All rights reserved.</h5>
     </footer>
     <script>
         // Add to cart functionality
