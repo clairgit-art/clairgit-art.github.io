@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
